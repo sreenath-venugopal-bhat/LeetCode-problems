@@ -15,6 +15,9 @@ class Solution {
             if(flag==0){
                 commonPrefix += symbol;
             }
+            else{
+                break;
+            }
         }
         if(commonPrefix.length()>0){
             return commonPrefix;
